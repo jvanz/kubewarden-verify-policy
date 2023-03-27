@@ -1,0 +1,277 @@
+{
+	"spdxVersion": "SPDX-2.2",
+	"dataLicense": "CC0-1.0",
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"name": "github.com/KhaledEmaraDev/kubewarden-verify-policy",
+	"documentNamespace": "http://spdx.org/spdxpackages/github.com/KhaledEmaraDev/kubewarden-verify-policy-b3e70d17-3a96-4ab4-b00c-96b435898da5",
+	"creationInfo": {
+		"created": "2023-03-27T17:13:22Z",
+		"creators": [
+			"Tool: spdx-sbom-generator-v0.0.15"
+		]
+	},
+	"packages": [
+		{
+			"name": "github.com/KhaledEmaraDev/kubewarden-verify-policy",
+			"SPDXID": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"versionInfo": "c0214eb",
+			"supplier": "Organization: github.com/KhaledEmaraDev/kubewarden-verify-policy",
+			"downloadLocation": "git+https://github.com/KhaledEmaraDev/kubewarden-verify-policy.git",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "b2d3e18df71c0d3b9220ed4686915b04b852e84fd835e0d36b7129c6d5dbf74b"
+				}
+			],
+			"homepage": "https://github.com/KhaledEmaraDev/kubewarden-verify-policy",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/francoispqt/gojay",
+			"SPDXID": "SPDXRef-Package-github.com.francoispqt.gojay-v0.0.0-20181220093123-f2cc13a668ca",
+			"versionInfo": "v0.0.0-20181220093123-f2cc13a668ca",
+			"supplier": "Organization: github.com/francoispqt/gojay",
+			"downloadLocation": "https://github.com/francoispqt/gojay/releases/tag/v0.0.0-20181220093123-f2cc13a668ca",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "863fcba986768d45fb805621a852da07075f40ed40f4eea0f68b64e37a62f655"
+				}
+			],
+			"homepage": "https://github.com/francoispqt/gojay",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/francoispqt/onelog",
+			"SPDXID": "SPDXRef-Package-github.com.francoispqt.onelog-v0.0.0-20190306043706-8c2bb31b10a4",
+			"versionInfo": "v0.0.0-20190306043706-8c2bb31b10a4",
+			"supplier": "Organization: github.com/francoispqt/onelog",
+			"downloadLocation": "https://github.com/francoispqt/onelog/releases/tag/v0.0.0-20190306043706-8c2bb31b10a4",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "4841576378428479b60098301881f9471cadfbe26f49071f7124575e908af408"
+				}
+			],
+			"homepage": "https://github.com/francoispqt/onelog",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/josharian/intern",
+			"SPDXID": "SPDXRef-Package-github.com.josharian.intern-v1.0.0",
+			"versionInfo": "v1.0.0",
+			"supplier": "Organization: github.com/josharian/intern",
+			"downloadLocation": "https://github.com/josharian/intern/releases/tag/v1.0.0",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "61387341c3487008b8e5abccec7936483ec66c9acc4545ac4eb3239553fe4339"
+				}
+			],
+			"homepage": "https://github.com/josharian/intern",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/mailru/easyjson",
+			"SPDXID": "SPDXRef-Package-github.com.mailru.easyjson-v0.7.7",
+			"versionInfo": "v0.7.7",
+			"supplier": "Organization: github.com/mailru/easyjson",
+			"downloadLocation": "https://github.com/mailru/easyjson/releases/tag/v0.7.7",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "493e701daba2c8274e4d28dea9bbc567e75a0d51cc1602eaa03e59b9c7285fd9"
+				}
+			],
+			"homepage": "https://github.com/mailru/easyjson",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/kubewarden/strfmt",
+			"SPDXID": "SPDXRef-Package-github.com.kubewarden.strfmt-v0.21.3",
+			"versionInfo": "v0.21.3",
+			"supplier": "Organization: github.com/kubewarden/strfmt",
+			"downloadLocation": "https://github.com/go-openapi/strfmt/releases/tag/v0.21.3",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "6c1ac62b0222f34a1723e0d02a721c5bb080754ea815a64dd02b75c7f629001a"
+				}
+			],
+			"homepage": "https://github.com/go-openapi/strfmt",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/kubewarden/k8s-objects",
+			"SPDXID": "SPDXRef-Package-github.com.kubewarden.k8s-objects-v1.26.0-kw1",
+			"versionInfo": "v1.26.0-kw1",
+			"supplier": "Organization: github.com/kubewarden/k8s-objects",
+			"downloadLocation": "https://github.com/kubewarden/k8s-objects/releases/tag/v1.26.0-kw1",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "06e7bb15166fe28f454c23bb3fbb093fd4fb199229802c9db4b98e816927946e"
+				}
+			],
+			"homepage": "https://github.com/kubewarden/k8s-objects",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/kubewarden/policy-sdk-go",
+			"SPDXID": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"versionInfo": "v0.3.0",
+			"supplier": "Organization: github.com/kubewarden/policy-sdk-go",
+			"downloadLocation": "https://github.com/kubewarden/policy-sdk-go/releases/tag/v0.3.0",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "425d7b785fe6d4c6fedccb36bab0fa84cca12df886244c99dcdbcbd8a5b45f82"
+				}
+			],
+			"homepage": "https://github.com/kubewarden/policy-sdk-go",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		},
+		{
+			"name": "github.com/wapc/wapc-guest-tinygo",
+			"SPDXID": "SPDXRef-Package-github.com.wapc.wapc-guest-tinygo-v0.3.3",
+			"versionInfo": "v0.3.3",
+			"supplier": "Organization: github.com/wapc/wapc-guest-tinygo",
+			"downloadLocation": "https://github.com/wapc/wapc-guest-tinygo/releases/tag/v0.3.3",
+			"filesAnalyzed": false,
+			"checksums": [
+				{
+					"algorithm": "SHA256",
+					"checksumValue": "63bc8ad2d1f6107b7044297c3e707bd8864ee9efaf720d63b3b639d9ae7111a0"
+				}
+			],
+			"homepage": "https://github.com/wapc/wapc-guest-tinygo",
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"copyrightText": "NOASSERTION",
+			"licenseComments": "NOASSERTION",
+			"comment": "NOASSERTION"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relationshipType": "DESCRIBES"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.kubewarden.k8s-objects-v1.26.0-kw1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.mailru.easyjson-v0.7.7",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.wapc.wapc-guest-tinygo-v0.3.3",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.francoispqt.gojay-v0.0.0-20181220093123-f2cc13a668ca",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.francoispqt.onelog-v0.0.0-20190306043706-8c2bb31b10a4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.KhaledEmaraDev.kubewarden-verify-policy",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.josharian.intern-v1.0.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.francoispqt.onelog-v0.0.0-20190306043706-8c2bb31b10a4",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.francoispqt.gojay-v0.0.0-20181220093123-f2cc13a668ca",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.mailru.easyjson-v0.7.7",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.josharian.intern-v1.0.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.k8s-objects-v1.26.0-kw1",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.mailru.easyjson-v0.7.7",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.k8s-objects-v1.26.0-kw1",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.josharian.intern-v1.0.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.mailru.easyjson-v0.7.7",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.wapc.wapc-guest-tinygo-v0.3.3",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.josharian.intern-v1.0.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-github.com.kubewarden.policy-sdk-go-v0.3.0",
+			"relatedSpdxElement": "SPDXRef-Package-github.com.kubewarden.k8s-objects-v1.26.0-kw1",
+			"relationshipType": "DEPENDS_ON"
+		}
+	]
+}

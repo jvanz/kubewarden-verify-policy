@@ -12,17 +12,13 @@ import (
 
 // No special checks have to be done
 func (s *Settings) Valid() (bool, error) {
-	return true, nil
-}
-
-func (s *Settings) IsNameDenied(name string) bool {
-	for _, deniedName := range s.DeniedNames {
-		if deniedName == name {
-			return true
-		}
+	if s.Image == "" {
+		return false, fmt.Errorf("image cannot be empty")
 	}
-
-	return false
+	if len(s.PubKeys) == 0 {
+		return false, fmt.Errorf("pubKeys cannot be empty")
+	}
+	return true, nil
 }
 
 func NewSettingsFromValidationReq(validationReq *kubewarden_protocol.ValidationRequest) (Settings, error) {

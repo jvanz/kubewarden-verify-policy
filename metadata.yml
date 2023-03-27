@@ -8,14 +8,14 @@ contextAware: false
 executionMode: kubewarden-wapc
 annotations:
   # artifacthub specific:
-  io.artifacthub.displayName: Policy Name
+  io.artifacthub.displayName: Verify Images
   io.artifacthub.resources: Pod
   io.artifacthub.keywords: pod, cool policy, kubewarden
-  io.kubewarden.policy.ociUrl: ghcr.io/yourorg/policies/policy-name # must match release workflow oci-target
+  io.kubewarden.policy.ociUrl: khaledemaradev/kubewarden-verify-policy # must match release workflow oci-target
   # kubewarden specific:
-  io.kubewarden.policy.title: policy-name
-  io.kubewarden.policy.description: Short description
-  io.kubewarden.policy.author: policy-author
-  io.kubewarden.policy.url: https://github.com/yourorg/policy-name
-  io.kubewarden.policy.source: https://github.com/yourorg/policy-name
+  io.kubewarden.policy.title: verify-images
+  io.kubewarden.policy.description: Verify Pod Images
+  io.kubewarden.policy.author: khaled-emara
+  io.kubewarden.policy.url: khaledemaradev/kubewarden-verify-policy
+  io.kubewarden.policy.source: https://github.com/KhaledEmaraDev/kubewarden-verify-policy
   io.kubewarden.policy.license: Apache-2.0

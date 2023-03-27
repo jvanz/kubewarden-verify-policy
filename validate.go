@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"strings"
 
 	onelog "github.com/francoispqt/onelog"
 	corev1 "github.com/kubewarden/k8s-objects/api/core/v1"
 	kubewarden "github.com/kubewarden/policy-sdk-go"
+	kubewarden_capabilities "github.com/kubewarden/policy-sdk-go/capabilities"
 	kubewarden_protocol "github.com/kubewarden/policy-sdk-go/protocol"
 	"github.com/mailru/easyjson"
 )
@@ -47,15 +47,30 @@ func validate(payload []byte) ([]byte, error) {
 		e.String("namespace", pod.Metadata.Namespace)
 	})
 
-	if settings.IsNameDenied(pod.Metadata.Name) {
+	host := kubewarden_capabilities.NewHost()
+
+	verificatopnResponse, err := host.VerifyPubKeys(settings.Image, settings.PubKeys, make(map[string]string))
+	if err != nil {
 		logger.InfoWithFields("rejecting pod object", func(e onelog.Entry) {
 			e.String("name", pod.Metadata.Name)
-			e.String("denied_names", strings.Join(settings.DeniedNames, ","))
+			e.String("image", settings.Image)
 		})
 
 		return kubewarden.RejectRequest(
 			kubewarden.Message(
-				fmt.Sprintf("The '%s' name is on the deny list", pod.Metadata.Name)),
+				fmt.Sprintf("The '%s' image cannot be verified: %s", settings.Image, err)),
+			kubewarden.NoCode)
+	}
+
+	if !verificatopnResponse.IsTrusted {
+		logger.InfoWithFields("rejecting pod object", func(e onelog.Entry) {
+			e.String("name", pod.Metadata.Name)
+			e.String("image", settings.Image)
+		})
+
+		return kubewarden.RejectRequest(
+			kubewarden.Message(
+				fmt.Sprintf("The '%s' image is not trusted", settings.Image)),
 			kubewarden.NoCode)
 	}
 

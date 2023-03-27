@@ -1,8 +1,10 @@
-module github.com/kubewarden/go-policy-template
+module github.com/KhaledEmaraDev/kubewarden-verify-policy
 
 go 1.19
 
 replace github.com/go-openapi/strfmt => github.com/kubewarden/strfmt v0.1.2
+
+replace github.com/kubewarden/policy-sdk-go => /home/kemara/Documents/workspaces/kubewarden/policy-sdk-go
 
 require (
 	github.com/francoispqt/onelog v0.0.0-20190306043706-8c2bb31b10a4

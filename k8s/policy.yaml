@@ -1,0 +1,23 @@
+apiVersion: policies.kubewarden.io/v1
+kind: ClusterAdmissionPolicy
+metadata:
+  name: verify-images
+spec:
+  module: registry://docker.io/khaledemaradev/hello-world-signed@sha256:92e1a7178e31e49e2123e502505242a6a9e4c2b9f8b8294029b38cd604462c7f
+  rules:
+  - apiGroups: [""]
+    apiVersions: ["v1"]
+    resources: ["pods"]
+    operations:
+    - CREATE
+    - UPDATE
+  mutating: false
+  settings:
+    image: khaledemaradev/hello-world-signed@sha256:f54a58bc1aac5ea1a25d796ae155dc228b3f0e11d046ae276b39c4bf2f13d8c4
+    pub_keys:
+    - |
+      -----BEGIN PUBLIC KEY-----
+      MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6WQpyouAQN7ZPmc5F50O17xkPq/T
+      p1aXg2yEVIxcZxcaGjHqPnUVbEnGaFFSgd/DjpEa1CYpn85h9WE4kYKFpA==
+      -----END PUBLIC KEY-----
+
